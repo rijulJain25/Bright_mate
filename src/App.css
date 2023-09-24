@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #9d22f0;
+    --purple : rgb(209, 59, 255); 
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow2: 10px 19px 50px 40px rgba(131, 22, 255, 0.08);
+    --purpleCard: #9d22f0;
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+a{
+  text-decoration: none;
+  color: var(--purple);
+}
+
+.app-body{
+  /* background-color: #ffffff; */
+  background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+  min-height: 100vh;
+}
+
+.loader-pre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

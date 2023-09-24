@@ -1,0 +1,7 @@
+.table-rows{
+    background-color: white;
+}
+
+.table-rows:hover{
+    background-color: rgb(228, 228, 228);
+}

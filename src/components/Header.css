@@ -1,0 +1,12 @@
+.nav-header{
+    flex: 1;
+    color: var(--purple);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-nav{
+    width: 35px;
+    margin-right: 10px;
+}

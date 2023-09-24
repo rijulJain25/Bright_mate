@@ -1,0 +1,32 @@
+.banner-head{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-content{
+    height: 400;
+    display: "flex";
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 70px;
+
+}
+
+.banner-heading{
+    color: var(--purple);
+}
+
+.banner-tagline{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .banner-heading{
+        font-size: 10;
+    }
+}

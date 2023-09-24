@@ -1,0 +1,64 @@
+.book-detail-head{
+    display: flex;
+    padding: 60px;
+}
+
+
+.book-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25;
+    border: 1px solid var(--purple);
+    width: 800px;
+    padding-top: 30px;
+}
+
+.typography-detail{
+    font-weight: bold;
+    margin-bottom: 20;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detail-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bookdetail-desc-head{
+    padding: 70px;
+}
+.detail-decs-span{
+    padding: 10px;
+}
+
+.detail-dec-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+
+@media screen and (max-width: 830px){
+    .book-detail-head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+
+    .book-sidebar{
+        width: 100%;
+        border-right: none;
+    }
+    .detail-dec-button{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

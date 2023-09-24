@@ -1,0 +1,29 @@
+@import '../App.css';
+
+.toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 2px solid var(--purple);
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.toggle>*{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--purple);
+}
+.t-button{
+    border-radius: 100%;
+    background: var(--purple);
+    position: absolute;
+}
+
+@media screen and (max-width: 550px){
+    .toggle{
+        transform: scale(0.8);
+    }
+}
